@@ -1,0 +1,23 @@
+.movie_card_details.container{
+  height: 65vh;
+}
+
+.movie_card_details {
+  justify-content: space-around;
+  align-items: normal;
+
+  .movie_card_img {
+    margin-right: 20px;
+  }
+}
+.movie_card_h{
+  text-align: center;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+  &:hover{
+    color: #0e3ba6;
+  }
+}
