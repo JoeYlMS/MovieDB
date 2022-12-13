@@ -41,11 +41,12 @@ export const renderDetails = ({id, release_date, backdrop_path, overview, title,
 }
 
 export const renderSearches = (searches, path) => {
-    return `<div class="container">
-            <h2 class="text-center"> Your request ${path}. Results :</h2>
-            <div class="movies_search">
-                ${searches.map(search => renderSearch(search)).join('')}
-            </div>
+    return `
+    <div class="container">
+        <h2 class="text-center"> Your request ${path}. Results :</h2>
+        <div class="movies_search">
+            ${searches.map(search => renderSearch(search)).join('')}
+        </div>
        
     </div>`
 }
