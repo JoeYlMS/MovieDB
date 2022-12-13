@@ -1,0 +1,18 @@
+footer{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: darkgray;
+  ul{
+    display: flex;
+    width: 50%;
+    list-style: none;
+li{
+  margin: 0 10px;
+  &:hover{
+    color: white;
+  }
+}
+
+  }
+}
